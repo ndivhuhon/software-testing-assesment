@@ -1,0 +1,46 @@
+solution design and Reasoning
+
+Questions
+
+1.Given the above high level requirements, what are some of the questions you would ask each of following team members to understand this feature better?
+
+Product owner
+PO1 What is the goal/purpose of the feature?
+PO2 What is the timeline for development and launch of this feature?
+P03 What are the success criteria  for this feature?
+
+UX designer
+UD1 How should users interact with this feature?
+UD2 What design elements should be used to ensure a positive user experience?
+UD3 How can we ensure that users understand how to use this feature quickly and easily?
+
+Technical Architect
+TA1 What technologies will be used to develop and deploy this feature?
+TA2 How will the data associated with this feature be stored and accessed?
+TA3 Are there any existing systems or services that need to be integrated with this new feature?
+
+
+2. In order to delight the user with these features, how would you want it to work?
+The following should be considered per feature
+
+Ability to add users based on the available licenses
+Test Case 1: Verify that the client administrator can add a user with a valid license.
+Test Case 2: Verify that the client administrator cannot add a user with an invalid license.
+Test Case 3: Verify that the client administrator cannot add more users than the available licenses.
+
+2. Ability to edit user details
+Test Case 1: Verify that the client administrator can edit existing user details such as name, email address, and phone number.
+Test Case 2: Verify that the client administrator can change a user's role from standard to admin or vice versa.
+Test Case 3: Verify that the client administrator can reset a user's password.
+
+3. Ability to remove users
+Test Case 1: Verify that the client administrator can remove an existing user from the system.
+Test Case 2: Verify that when a user is removed, their data is also removed from the system.
+
+3. Based on your response to the previous question what would you automate in the testing of this feature?
+
+The best approach is to prioritize which features should be automated based on their importance to the overall system or process being automated
+It is important to consider the cost and benefit of automating each feature.
+Automating a feature can save time and money, but it may also require additional resources or expertise. 
+For example, automating the ability to add users based on available licenses may be beneficial if the process is complex or time-consuming.
+However, automating the ability to edit user details may not be as beneficial if the process is relatively simple and can be done manually.
